@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Pasapalabra</title>
+    </head>
+    <body>
+        <div class="modal ">
+            <h2>Ranking</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Puntuación</th>
+                    </tr>
+                </thead>
+                <tbody class="t-body">
+
+                </tbody>
+            </table>
+            <button class="close-modal">Cerrar ranking</button>
+        </div>
+        <header class="header">PASAPALABRA</header>
+        <main class="container">
+            <div class="score">
+                <span class="numberQuestions">27</span>
+                <span class="time">150</span>
+            </div>
+            <div class="circle">
+                <div class="letter A">A</div>
+                <div class="letter B">B</div>
+                <div class="letter C">C</div>
+                <div class="letter D">D</div>
+                <div class="letter E">E</div>
+                <div class="letter F">F</div>
+                <div class="letter G">G</div>
+                <div class="letter H">H</div>
+                <div class="letter I">I</div>
+                <div class="letter J">J</div>
+                <div class="letter K">K</div>
+                <div class="letter L">L</div>
+                <div class="letter M">M</div>
+                <div class="letter N">N</div>
+                <div class="letter Ñ">Ñ</div>
+                <div class="letter O">O</div>
+                <div class="letter P">P</div>
+                <div class="letter Q">Q</div>
+                <div class="letter R">R</div>
+                <div class="letter S">S</div>
+                <div class="letter T">T</div>
+                <div class="letter U">U</div>
+                <div class="letter V">V</div>
+                <div class="letter W">W</div>
+                <div class="letter X">X</div>
+                <div class="letter Y">Y</div>
+                <div class="letter Z">Z</div>
+            </div>
+            <div class="questions">
+
+                <div class="introduction">
+                    <p>Bienvenido a Pasapalabra!!</p>
+                    <p>En este desafío de conocimientos, pondrás a prueba tu
+                        habilidad para encontrar palabras asociadas a cada letra
+                        del
+                        abecedario.</p>
+                    <p>El juego consta de varias rondas, y en cada una de ellas
+                        se
+                        te presentarán preguntas que comienzan con una letra
+                        específica.</p>
+                    <p>Tu objetivo es responder correctamente la mayor cantidad
+                        de
+                        preguntas en el menor tiempo posible.</p>
+                    <p>Si no sabes la respuesta o prefieres pasar a la siguiente
+                        pregunta, puedes decir "pasapalabra".</p>
+                    <p>Termina la partida para entrar en el ranking final!.</p>
+                    <p>¡Prepárate para demostrar todo tu conocimiento y
+                        diviértete
+                        jugando a Pasapalabra!</p>
+                    <button class="btn">JUGAR</button>
+                </div>
+
+                <p class="question">
+
+                </p>
+
+                <input type="text" placeholder="Escribe tu respuesta"
+                    class="input hidden" />
+
+                <div class="flex hidden">
+                    <button type="button" class="submit hidden">ENVIAR</button>
+                    <button type="button" class="pasapalabra hidden">PASAPALABRA</button>
+                </div>
+
+                <button type="button" class="end hidden">Terminar
+                    partida
+                </button>
+
+            </div>
+        </main>
+
+        <script src="main.js" type="module"></script>
+    </body>
+</html>
